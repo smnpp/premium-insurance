@@ -69,15 +69,13 @@ terms of:
 The primary evaluation metric for this challenge is the **Root Mean Square Error
 (RMSE)**, calculated as:
 
-```
-RMSE = sqrt((1/n) * Σ(yᵢ - ŷᵢ)²)
-```
+$RMSE = \sqrt{\frac{1}{n}\sum_{i=1}^n (y_i - ŷ_i)^2}$
 
 Where:
 
--   `yᵢ` = Actual value
--   `ŷᵢ` = Predicted value
--   `n` = Number of observations
+-   $y_i$ = Actual value
+-   $ŷ_i$ = Predicted value
+-   $n$ = Number of observations
 
 The objective is to assess how well the proposed models improve upon the
 baseline in terms of predictive performance.
